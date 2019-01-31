@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.qa.NewProject.ParaTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 13.062 sec <<< FAILURE!
-login[0](com.qa.NewProject.ParaTest)  Time elapsed: 4.333 sec  <<< FAILURE!
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 11.483 sec <<< FAILURE!
+login[0](com.qa.NewProject.ParaTest)  Time elapsed: 3.211 sec  <<< FAILURE!
 java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:86)
 	at org.junit.Assert.fail(Assert.java:95)
@@ -46,7 +46,7 @@ java.lang.AssertionError
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-login[1](com.qa.NewProject.ParaTest)  Time elapsed: 2.974 sec  <<< FAILURE!
+login[1](com.qa.NewProject.ParaTest)  Time elapsed: 2.602 sec  <<< FAILURE!
 java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:86)
 	at org.junit.Assert.fail(Assert.java:95)
@@ -90,7 +90,7 @@ java.lang.AssertionError
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-login[2](com.qa.NewProject.ParaTest)  Time elapsed: 2.602 sec  <<< FAILURE!
+login[2](com.qa.NewProject.ParaTest)  Time elapsed: 2.596 sec  <<< FAILURE!
 java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:86)
 	at org.junit.Assert.fail(Assert.java:95)
@@ -134,7 +134,7 @@ java.lang.AssertionError
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-login[3](com.qa.NewProject.ParaTest)  Time elapsed: 2.665 sec  <<< FAILURE!
+login[3](com.qa.NewProject.ParaTest)  Time elapsed: 2.564 sec  <<< FAILURE!
 java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:86)
 	at org.junit.Assert.fail(Assert.java:95)

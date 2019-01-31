@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="4" name="com.qa.NewProject.ParaTest" time="12.574" errors="0" skipped="0">
+<testsuite tests="4" failures="4" name="com.qa.NewProject.ParaTest" time="10.973" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
     <property name="java.vm.version" value="25.144-b01"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Admin\eclipse-workspace\MyTestExamples"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Admin\Desktop\CompositeOfTestExamples"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\Admin\eclipse-workspace\MyTestExamples"/>
+    <property name="user.dir" value="C:\Users\Admin\Desktop\CompositeOfTestExamples"/>
     <property name="java.runtime.version" value="1.8.0_144-b01"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\endorsed"/>
@@ -63,7 +63,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.qa.NewProject.ParaTest" name="login[0]" time="4.333">
+  <testcase classname="com.qa.NewProject.ParaTest" name="login[0]" time="3.211">
     <failure type="java.lang.AssertionError">java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:86)
 	at org.junit.Assert.fail(Assert.java:95)
@@ -111,24 +111,24 @@
 actual result needs to be printed in row:1
 1
 </system-out>
-    <system-err>Jan 31, 2019 4:30:10 PM org.openqa.selenium.phantomjs.PhantomJSDriverService &lt;init&gt;
+    <system-err>Jan 31, 2019 5:17:14 PM org.openqa.selenium.phantomjs.PhantomJSDriverService &lt;init&gt;
 INFO: executable: C:\Users\Admin\Desktop\phantomjs.exe
-Jan 31, 2019 4:30:10 PM org.openqa.selenium.phantomjs.PhantomJSDriverService &lt;init&gt;
-INFO: port: 10460
-Jan 31, 2019 4:30:10 PM org.openqa.selenium.phantomjs.PhantomJSDriverService &lt;init&gt;
-INFO: arguments: [--webdriver=10460, --webdriver-logfile=C:\Users\Admin\eclipse-workspace\MyTestExamples\phantomjsdriver.log]
-Jan 31, 2019 4:30:10 PM org.openqa.selenium.phantomjs.PhantomJSDriverService &lt;init&gt;
+Jan 31, 2019 5:17:14 PM org.openqa.selenium.phantomjs.PhantomJSDriverService &lt;init&gt;
+INFO: port: 32611
+Jan 31, 2019 5:17:14 PM org.openqa.selenium.phantomjs.PhantomJSDriverService &lt;init&gt;
+INFO: arguments: [--webdriver=32611, --webdriver-logfile=C:\Users\Admin\Desktop\CompositeOfTestExamples\phantomjsdriver.log]
+Jan 31, 2019 5:17:14 PM org.openqa.selenium.phantomjs.PhantomJSDriverService &lt;init&gt;
 INFO: environment: {}
-[INFO  - 2019-01-31T16:30:12.435Z] GhostDriver - Main - running on port 10460
-[INFO  - 2019-01-31T16:30:12.782Z] Session [7babf8a0-2575-11e9-abd0-9920aa49ce9a] - page.settings - {&quot;XSSAuditingEnabled&quot;:false,&quot;javascriptCanCloseWindows&quot;:true,&quot;javascriptCanOpenWindows&quot;:true,&quot;javascriptEnabled&quot;:true,&quot;loadImages&quot;:true,&quot;localToRemoteUrlAccessEnabled&quot;:false,&quot;userAgent&quot;:&quot;Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1&quot;,&quot;webSecurityEnabled&quot;:true}
-[INFO  - 2019-01-31T16:30:12.783Z] Session [7babf8a0-2575-11e9-abd0-9920aa49ce9a] - page.customHeaders:  - {}
-[INFO  - 2019-01-31T16:30:12.783Z] Session [7babf8a0-2575-11e9-abd0-9920aa49ce9a] - Session.negotiatedCapabilities - {&quot;browserName&quot;:&quot;phantomjs&quot;,&quot;version&quot;:&quot;2.1.1&quot;,&quot;driverName&quot;:&quot;ghostdriver&quot;,&quot;driverVersion&quot;:&quot;1.2.0&quot;,&quot;platform&quot;:&quot;windows-10-32bit&quot;,&quot;javascriptEnabled&quot;:true,&quot;takesScreenshot&quot;:true,&quot;handlesAlerts&quot;:false,&quot;databaseEnabled&quot;:false,&quot;locationContextEnabled&quot;:false,&quot;applicationCacheEnabled&quot;:false,&quot;browserConnectionEnabled&quot;:false,&quot;cssSelectorsEnabled&quot;:true,&quot;webStorageEnabled&quot;:false,&quot;rotatable&quot;:false,&quot;acceptSslCerts&quot;:false,&quot;nativeEvents&quot;:true,&quot;proxy&quot;:{&quot;proxyType&quot;:&quot;direct&quot;}}
-[INFO  - 2019-01-31T16:30:12.783Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 7babf8a0-2575-11e9-abd0-9920aa49ce9a
-Jan 31, 2019 4:30:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[INFO  - 2019-01-31T17:17:16.339Z] GhostDriver - Main - running on port 32611
+[INFO  - 2019-01-31T17:17:16.694Z] Session [0edabf20-257c-11e9-a308-cf2066b8e9ac] - page.settings - {&quot;XSSAuditingEnabled&quot;:false,&quot;javascriptCanCloseWindows&quot;:true,&quot;javascriptCanOpenWindows&quot;:true,&quot;javascriptEnabled&quot;:true,&quot;loadImages&quot;:true,&quot;localToRemoteUrlAccessEnabled&quot;:false,&quot;userAgent&quot;:&quot;Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1&quot;,&quot;webSecurityEnabled&quot;:true}
+[INFO  - 2019-01-31T17:17:16.695Z] Session [0edabf20-257c-11e9-a308-cf2066b8e9ac] - page.customHeaders:  - {}
+[INFO  - 2019-01-31T17:17:16.695Z] Session [0edabf20-257c-11e9-a308-cf2066b8e9ac] - Session.negotiatedCapabilities - {&quot;browserName&quot;:&quot;phantomjs&quot;,&quot;version&quot;:&quot;2.1.1&quot;,&quot;driverName&quot;:&quot;ghostdriver&quot;,&quot;driverVersion&quot;:&quot;1.2.0&quot;,&quot;platform&quot;:&quot;windows-10-32bit&quot;,&quot;javascriptEnabled&quot;:true,&quot;takesScreenshot&quot;:true,&quot;handlesAlerts&quot;:false,&quot;databaseEnabled&quot;:false,&quot;locationContextEnabled&quot;:false,&quot;applicationCacheEnabled&quot;:false,&quot;browserConnectionEnabled&quot;:false,&quot;cssSelectorsEnabled&quot;:true,&quot;webStorageEnabled&quot;:false,&quot;rotatable&quot;:false,&quot;acceptSslCerts&quot;:false,&quot;nativeEvents&quot;:true,&quot;proxy&quot;:{&quot;proxyType&quot;:&quot;direct&quot;}}
+[INFO  - 2019-01-31T17:17:16.695Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 0edabf20-257c-11e9-a308-cf2066b8e9ac
+Jan 31, 2019 5:17:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 </system-err>
   </testcase>
-  <testcase classname="com.qa.NewProject.ParaTest" name="login[1]" time="2.974">
+  <testcase classname="com.qa.NewProject.ParaTest" name="login[1]" time="2.602">
     <failure type="java.lang.AssertionError">java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:86)
 	at org.junit.Assert.fail(Assert.java:95)
@@ -176,24 +176,24 @@ INFO: Detected dialect: OSS
 actual result needs to be printed in row:2
 2
 </system-out>
-    <system-err>Jan 31, 2019 4:30:15 PM org.openqa.selenium.phantomjs.PhantomJSDriverService &lt;init&gt;
+    <system-err>Jan 31, 2019 5:17:17 PM org.openqa.selenium.phantomjs.PhantomJSDriverService &lt;init&gt;
 INFO: executable: C:\Users\Admin\Desktop\phantomjs.exe
-Jan 31, 2019 4:30:15 PM org.openqa.selenium.phantomjs.PhantomJSDriverService &lt;init&gt;
-INFO: port: 34296
-Jan 31, 2019 4:30:15 PM org.openqa.selenium.phantomjs.PhantomJSDriverService &lt;init&gt;
-INFO: arguments: [--webdriver=34296, --webdriver-logfile=C:\Users\Admin\eclipse-workspace\MyTestExamples\phantomjsdriver.log]
-Jan 31, 2019 4:30:15 PM org.openqa.selenium.phantomjs.PhantomJSDriverService &lt;init&gt;
+Jan 31, 2019 5:17:17 PM org.openqa.selenium.phantomjs.PhantomJSDriverService &lt;init&gt;
+INFO: port: 42894
+Jan 31, 2019 5:17:17 PM org.openqa.selenium.phantomjs.PhantomJSDriverService &lt;init&gt;
+INFO: arguments: [--webdriver=42894, --webdriver-logfile=C:\Users\Admin\Desktop\CompositeOfTestExamples\phantomjsdriver.log]
+Jan 31, 2019 5:17:17 PM org.openqa.selenium.phantomjs.PhantomJSDriverService &lt;init&gt;
 INFO: environment: {}
-[INFO  - 2019-01-31T16:30:16.479Z] GhostDriver - Main - running on port 34296
-[INFO  - 2019-01-31T16:30:16.658Z] Session [7dfb66e0-2575-11e9-96b8-f7047b31d17e] - page.settings - {&quot;XSSAuditingEnabled&quot;:false,&quot;javascriptCanCloseWindows&quot;:true,&quot;javascriptCanOpenWindows&quot;:true,&quot;javascriptEnabled&quot;:true,&quot;loadImages&quot;:true,&quot;localToRemoteUrlAccessEnabled&quot;:false,&quot;userAgent&quot;:&quot;Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1&quot;,&quot;webSecurityEnabled&quot;:true}
-[INFO  - 2019-01-31T16:30:16.658Z] Session [7dfb66e0-2575-11e9-96b8-f7047b31d17e] - page.customHeaders:  - {}
-[INFO  - 2019-01-31T16:30:16.658Z] Session [7dfb66e0-2575-11e9Jan 31, 2019 4:30:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[INFO  - 2019-01-31T17:17:19.247Z] GhostDriver - Main - running on port 42894
+[INFO  - 2019-01-31T17:17:19.417Z] Session [107a1740-257c-11e9-ae57-51d1fcabfadf] - page.settings - {&quot;XSSAuditingEnabled&quot;:false,&quot;javascriptCanCloseWindows&quot;:true,&quot;javascriptCanOpenWindows&quot;:true,&quot;javascriptEnabled&quot;:true,&quot;loadImages&quot;:true,&quot;localToRemoteUrlAccessEnabled&quot;:false,&quot;userAgent&quot;:&quot;Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1&quot;,&quot;webSecurityEnabled&quot;:true}
+[INFO  - 2019-01-31T17:17:19.417Z] Session [107a1740-257c-11e9-ae57-51d1fcabfadf] - page.customHeaders:  - {}
+[INFO  - 2019-01-31T17:17:19.417Z] Session [107a1740-257c-11e9-ae57-51d1fcabfadf] - Session.negotiatedCapabilities - {&quot;browserName&quot;:&quot;phantomjs&quot;,&quot;version&quot;:&quot;2.1.1&quot;,&quot;driverName&quot;:&quot;ghostdriver&quot;,&quot;driverVersion&quot;:&quot;1.2.0&quot;,&quot;platform&quot;:&quot;windows-10-32bit&quot;,&quot;javascriptEnabled&quot;:true,&quot;takesScreenshot&quot;:Jan 31, 2019 5:17:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
--96b8-f7047b31d17e] - Session.negotiatedCapabilities - {&quot;browserName&quot;:&quot;phantomjs&quot;,&quot;version&quot;:&quot;2.1.1&quot;,&quot;driverName&quot;:&quot;ghostdriver&quot;,&quot;driverVersion&quot;:&quot;1.2.0&quot;,&quot;platform&quot;:&quot;windows-10-32bit&quot;,&quot;javascriptEnabled&quot;:true,&quot;takesScreenshot&quot;:true,&quot;handlesAlerts&quot;:false,&quot;databaseEnabled&quot;:false,&quot;locationContextEnabled&quot;:false,&quot;applicationCacheEnabled&quot;:false,&quot;browserConnectionEnabled&quot;:false,&quot;cssSelectorsEnabled&quot;:true,&quot;webStorageEnabled&quot;:false,&quot;rotatable&quot;:false,&quot;acceptSslCerts&quot;:false,&quot;nativeEvents&quot;:true,&quot;proxy&quot;:{&quot;proxyType&quot;:&quot;direct&quot;}}
-[INFO  - 2019-01-31T16:30:16.658Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 7dfb66e0-2575-11e9-96b8-f7047b31d17e
+true,&quot;handlesAlerts&quot;:false,&quot;databaseEnabled&quot;:false,&quot;locationContextEnabled&quot;:false,&quot;applicationCacheEnabled&quot;:false,&quot;browserConnectionEnabled&quot;:false,&quot;cssSelectorsEnabled&quot;:true,&quot;webStorageEnabled&quot;:false,&quot;rotatable&quot;:false,&quot;acceptSslCerts&quot;:false,&quot;nativeEvents&quot;:true,&quot;proxy&quot;:{&quot;proxyType&quot;:&quot;direct&quot;}}
+[INFO  - 2019-01-31T17:17:19.417Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 107a1740-257c-11e9-ae57-51d1fcabfadf
 </system-err>
   </testcase>
-  <testcase classname="com.qa.NewProject.ParaTest" name="login[2]" time="2.602">
+  <testcase classname="com.qa.NewProject.ParaTest" name="login[2]" time="2.596">
     <failure type="java.lang.AssertionError">java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:86)
 	at org.junit.Assert.fail(Assert.java:95)
@@ -241,24 +241,24 @@ INFO: Detected dialect: OSS
 actual result needs to be printed in row:3
 3
 </system-out>
-    <system-err>Jan 31, 2019 4:30:18 PM org.openqa.selenium.phantomjs.PhantomJSDriverService &lt;init&gt;
+    <system-err>Jan 31, 2019 5:17:20 PM org.openqa.selenium.phantomjs.PhantomJSDriverService &lt;init&gt;
 INFO: executable: C:\Users\Admin\Desktop\phantomjs.exe
-Jan 31, 2019 4:30:18 PM org.openqa.selenium.phantomjs.PhantomJSDriverService &lt;init&gt;
-INFO: port: 42180
-Jan 31, 2019 4:30:18 PM org.openqa.selenium.phantomjs.PhantomJSDriverService &lt;init&gt;
-INFO: arguments: [--webdriver=42180, --webdriver-logfile=C:\Users\Admin\eclipse-workspace\MyTestExamples\phantomjsdriver.log]
-Jan 31, 2019 4:30:18 PM org.openqa.selenium.phantomjs.PhantomJSDriverService &lt;init&gt;
+Jan 31, 2019 5:17:20 PM org.openqa.selenium.phantomjs.PhantomJSDriverService &lt;init&gt;
+INFO: port: 49022
+Jan 31, 2019 5:17:20 PM org.openqa.selenium.phantomjs.PhantomJSDriverService &lt;init&gt;
+INFO: arguments: [--webdriver=49022, --webdriver-logfile=C:\Users\Admin\Desktop\CompositeOfTestExamples\phantomjsdriver.log]
+Jan 31, 2019 5:17:20 PM org.openqa.selenium.phantomjs.PhantomJSDriverService &lt;init&gt;
 INFO: environment: {}
-[INFO  - 2019-01-31T16:30:19.464Z] GhostDriver - Main - running on port 42180
-[INFO  - 2019-01-31T16:30:19.632Z] Session [7fc132c0-2575-11e9-b19f-ebaca68e7bb8] - page.settings - {&quot;XSSAuditingEnabled&quot;:false,&quot;javascriptCanCloseWindows&quot;:true,&quot;javascriptCanOpenWindows&quot;:true,&quot;javascriptEnabled&quot;:true,&quot;loadImages&quot;:true,&quot;localToRemoteUrlAccessEnabled&quot;:false,Jan 31, 2019 4:30:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[INFO  - 2019-01-31T17:17:21.857Z] GhostDriver - Main - running on port 49022
+[INFO  - 2019-01-31T17:17:22.017Z] Session [1206f8d0-257c-11e9-9e2d-9dfeb859da62] - page.settings - {&quot;XSSAuditingEnabled&quot;:false,&quot;javascriptCanCloseWindows&quot;:true,&quot;javascriptCanOpenWindows&quot;:true,&quot;javascriptEnabled&quot;:true,&quot;loadImages&quot;:true,&quot;localToRemoteUrlAccessEnabled&quot;:false,&quot;userAgent&quot;:&quot;Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1&quot;,&quot;webSecurityEnabled&quot;:true}
+[INFO  - 2019-01-31T17:17:22.017Z] Session [1206f8d0-257c-11e9-9e2d-9dfeb859da62] - page.customHeaders:  - {}
+[INFO  - 2019-01-31T17:17:22.017Z] Session [1206f8d0-257c-11e9-9e2d-9dfeb859da62] - Session.negotiatedCapabilities - {&quot;browserName&quot;:&quot;phantJan 31, 2019 5:17:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
-&quot;userAgent&quot;:&quot;Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1&quot;,&quot;webSecurityEnabled&quot;:true}
-[INFO  - 2019-01-31T16:30:19.632Z] Session [7fc132c0-2575-11e9-b19f-ebaca68e7bb8] - page.customHeaders:  - {}
-[INFO  - 2019-01-31T16:30:19.632Z] Session [7fc132c0-2575-11e9-b19f-ebaca68e7bb8] - Session.negotiatedCapabilities - {&quot;browserName&quot;:&quot;phantomjs&quot;,&quot;version&quot;:&quot;2.1.1&quot;,&quot;driverName&quot;:&quot;ghostdriver&quot;,&quot;driverVersion&quot;:&quot;1.2.0&quot;,&quot;platform&quot;:&quot;windows-10-32bit&quot;,&quot;javascriptEnabled&quot;:true,&quot;takesScreenshot&quot;:true,&quot;handlesAlerts&quot;:false,&quot;databaseEnabled&quot;:false,&quot;locationContextEnabled&quot;:false,&quot;applicationCacheEnabled&quot;:false,&quot;browserConnectionEnabled&quot;:false,&quot;cssSelectorsEnabled&quot;:true,&quot;webStorageEnabled&quot;:false,&quot;rotatable&quot;:false,&quot;acceptSslCerts&quot;:false,&quot;nativeEvents&quot;:true,&quot;proxy&quot;:{&quot;proxyType&quot;:&quot;direct&quot;}}
-[INFO  - 2019-01-31T16:30:19.632Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 7fc132c0-2575-11e9-b19f-ebaca68e7bb8
+omjs&quot;,&quot;version&quot;:&quot;2.1.1&quot;,&quot;driverName&quot;:&quot;ghostdriver&quot;,&quot;driverVersion&quot;:&quot;1.2.0&quot;,&quot;platform&quot;:&quot;windows-10-32bit&quot;,&quot;javascriptEnabled&quot;:true,&quot;takesScreenshot&quot;:true,&quot;handlesAlerts&quot;:false,&quot;databaseEnabled&quot;:false,&quot;locationContextEnabled&quot;:false,&quot;applicationCacheEnabled&quot;:false,&quot;browserConnectionEnabled&quot;:false,&quot;cssSelectorsEnabled&quot;:true,&quot;webStorageEnabled&quot;:false,&quot;rotatable&quot;:false,&quot;acceptSslCerts&quot;:false,&quot;nativeEvents&quot;:true,&quot;proxy&quot;:{&quot;proxyType&quot;:&quot;direct&quot;}}
+[INFO  - 2019-01-31T17:17:22.018Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 1206f8d0-257c-11e9-9e2d-9dfeb859da62
 </system-err>
   </testcase>
-  <testcase classname="com.qa.NewProject.ParaTest" name="login[3]" time="2.665">
+  <testcase classname="com.qa.NewProject.ParaTest" name="login[3]" time="2.564">
     <failure type="java.lang.AssertionError">java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:86)
 	at org.junit.Assert.fail(Assert.java:95)
@@ -306,21 +306,21 @@ INFO: Detected dialect: OSS
 actual result needs to be printed in row:4
 4
 </system-out>
-    <system-err>Jan 31, 2019 4:30:20 PM org.openqa.selenium.phantomjs.PhantomJSDriverService &lt;init&gt;
+    <system-err>Jan 31, 2019 5:17:23 PM org.openqa.selenium.phantomjs.PhantomJSDriverService &lt;init&gt;
 INFO: executable: C:\Users\Admin\Desktop\phantomjs.exe
-Jan 31, 2019 4:30:20 PM org.openqa.selenium.phantomjs.PhantomJSDriverService &lt;init&gt;
-INFO: port: 8214
-Jan 31, 2019 4:30:20 PM org.openqa.selenium.phantomjs.PhantomJSDriverService &lt;init&gt;
-INFO: arguments: [--webdriver=8214, --webdriver-logfile=C:\Users\Admin\eclipse-workspace\MyTestExamples\phantomjsdriver.log]
-Jan 31, 2019 4:30:20 PM org.openqa.selenium.phantomjs.PhantomJSDriverService &lt;init&gt;
+Jan 31, 2019 5:17:23 PM org.openqa.selenium.phantomjs.PhantomJSDriverService &lt;init&gt;
+INFO: port: 32279
+Jan 31, 2019 5:17:23 PM org.openqa.selenium.phantomjs.PhantomJSDriverService &lt;init&gt;
+INFO: arguments: [--webdriver=32279, --webdriver-logfile=C:\Users\Admin\Desktop\CompositeOfTestExamples\phantomjsdriver.log]
+Jan 31, 2019 5:17:23 PM org.openqa.selenium.phantomjs.PhantomJSDriverService &lt;init&gt;
 INFO: environment: {}
-[INFO  - 2019-01-31T16:30:22.061Z] GhostDriver - Main - running on port 8214
-[INFO  - 2019-01-31T16:30:22.229Z] Session [814d7810-2575-11e9-8358-5191273b45ec] - page.settings - {&quot;XSSAuditingEnabled&quot;:false,&quot;javascriptCanCloseWindows&quot;:true,&quot;javascriptCanOpenWindows&quot;:true,&quot;javascriptEnabled&quot;:true,&quot;loadImages&quot;:true,&quot;localToRemoteUrlAccessEnabled&quot;:false,&quot;userAgent&quot;:&quot;Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1&quot;,&quot;webSecurityEnabled&quot;:true}
-[INFO  - 2019-01-31T16:30:22.229Z] Session [814d7810-2575-11e9-8358-5191273b45ec] - page.customHeaders:  - {}
-[INFO  - 2019-01-31T16:30:22.229Z] Session [814d7810-2575-11e9-8358Jan 31, 2019 4:30:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[INFO  - 2019-01-31T17:17:24.456Z] GhostDriver - Main - running on port 32279
+[INFO  - 2019-01-31T17:17:24.610Z] Session [1392a1e0-257c-11e9-bc84-21c32ab72e74] - page.settings - {&quot;XSSAuditingEnabled&quot;:false,&quot;javascriptCanCloseWindows&quot;:true,&quot;javascriptCanOpenWindows&quot;:true,&quot;javascriptEnabled&quot;:true,&quot;loadImages&quot;:true,&quot;localToRemoteUrlAccessEnabled&quot;:false,&quot;userAgent&quot;:&quot;Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1&quot;,&quot;webSecurityEnabled&quot;:true}
+[INFO  - 2019-01-31T17:17:24.610Z] Session [1392a1e0-257c-11e9-bc84-21c32ab72e74] - page.customHeaders:  - {}
+[INFO  - 2019-01-31T17:17:24.610Z] Session [1392a1e0-257Jan 31, 2019 5:17:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
--5191273b45ec] - Session.negotiatedCapabilities - {&quot;browserName&quot;:&quot;phantomjs&quot;,&quot;version&quot;:&quot;2.1.1&quot;,&quot;driverName&quot;:&quot;ghostdriver&quot;,&quot;driverVersion&quot;:&quot;1.2.0&quot;,&quot;platform&quot;:&quot;windows-10-32bit&quot;,&quot;javascriptEnabled&quot;:true,&quot;takesScreenshot&quot;:true,&quot;handlesAlerts&quot;:false,&quot;databaseEnabled&quot;:false,&quot;locationContextEnabled&quot;:false,&quot;applicationCacheEnabled&quot;:false,&quot;browserConnectionEnabled&quot;:false,&quot;cssSelectorsEnabled&quot;:true,&quot;webStorageEnabled&quot;:false,&quot;rotatable&quot;:false,&quot;acceptSslCerts&quot;:false,&quot;nativeEvents&quot;:true,&quot;proxy&quot;:{&quot;proxyType&quot;:&quot;direct&quot;}}
-[INFO  - 2019-01-31T16:30:22.229Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 814d7810-2575-11e9-8358-5191273b45ec
+c-11e9-bc84-21c32ab72e74] - Session.negotiatedCapabilities - {&quot;browserName&quot;:&quot;phantomjs&quot;,&quot;version&quot;:&quot;2.1.1&quot;,&quot;driverName&quot;:&quot;ghostdriver&quot;,&quot;driverVersion&quot;:&quot;1.2.0&quot;,&quot;platform&quot;:&quot;windows-10-32bit&quot;,&quot;javascriptEnabled&quot;:true,&quot;takesScreenshot&quot;:true,&quot;handlesAlerts&quot;:false,&quot;databaseEnabled&quot;:false,&quot;locationContextEnabled&quot;:false,&quot;applicationCacheEnabled&quot;:false,&quot;browserConnectionEnabled&quot;:false,&quot;cssSelectorsEnabled&quot;:true,&quot;webStorageEnabled&quot;:false,&quot;rotatable&quot;:false,&quot;acceptSslCerts&quot;:false,&quot;nativeEvents&quot;:true,&quot;proxy&quot;:{&quot;proxyType&quot;:&quot;direct&quot;}}
+[INFO  - 2019-01-31T17:17:24.610Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 1392a1e0-257c-11e9-bc84-21c32ab72e74
 </system-err>
   </testcase>
 </testsuite>
